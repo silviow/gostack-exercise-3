@@ -32,7 +32,7 @@ describe("App component", () => {
 
     await actWait();
 
-    fireEvent.click(getByText("Add new repository"));
+    fireEvent.click(getByText("Adicionar"));
 
     await actWait();
 
@@ -57,7 +57,7 @@ describe("App component", () => {
 
     await actWait();
 
-    fireEvent.click(getByText("Delete"));
+    fireEvent.click(getByText("Remover"));
 
     await actWait();
 
